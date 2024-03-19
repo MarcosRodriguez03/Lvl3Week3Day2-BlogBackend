@@ -16,13 +16,13 @@ namespace Lvl3Week3Day2_BlogBackend.Models
         public string? Image { get; set; }
         public string? Tags { get; set; }
         public string? Categories { get; set; }
-        public bool? IsPublished { get; set; }
-        public bool? IsDeleted { get; set; }
+        public bool IsPublished { get; set; }
+        public bool IsDeleted { get; set; }
 
 
         public BlogItemModel()
         {
-            
+
         }
     }
 }
